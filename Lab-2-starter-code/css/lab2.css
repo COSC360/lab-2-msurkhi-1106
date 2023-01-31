@@ -1,11 +1,12 @@
 header, footer{
     color: white;
-    background-color: #daad86;
-    margin: 0em 4em 0.5em 4em;
+    background-color: #312c32;
+        margin: 0em 4em 0.5em 4em;
     }
 
     h1,	h2,	h3,	nav, footer{
         font-family: "Trebuchet MS",	"Lucida Grande",	Tahoma,	sans-serif;
+      
 
     }
 
@@ -46,4 +47,39 @@ header, footer{
 
     a:visited{
         color: #daad86;
+    }
+
+
+
+    .large-image{
+        border: 0.25em solid black;
+        width: 98%;
+    }
+
+
+
+    .byline{
+        font-weight: bold;
+        font-style: italic;
+    }
+
+
+
+
+
+    .share{
+        background-image: url("../images/gray-gradient.png");
+        background-repeat: repeat-x;
+        height: 50px;
+        border-radius: 50px;
+        margin: auto;
+        
+    
+    }
+
+
+
+    .review{
+        border-top: solid 1px black;
+        border-bottom: dotted 1px black;
     }
